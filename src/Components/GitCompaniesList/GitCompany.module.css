@@ -1,0 +1,26 @@
+.projectCard {
+    border: solid black 2px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.pagianator {
+    display: flex;
+}
+
+.buttonsPrevNext {
+    cursor: pointer;
+    padding-right: 4px;
+    font-size: 25px;
+}
+
+.buttonsPrevNext:hover {
+    color: red;
+}
+
+.activePage {
+    font-weight: bold;
+    color: red;
+    font-size: 25px;
+    padding-right: 4px;
+}
